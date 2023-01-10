@@ -1,8 +1,8 @@
 package Collection;
 
 public class Bank {
-    String bankName;
-    int bankId;
+    String bankName = "Axis Bank";
+    int bankId = 123;
     long bankPhoneNo;
     private long bankTotalFund=200000;
     private float bankInterest;
