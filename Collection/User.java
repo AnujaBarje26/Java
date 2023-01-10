@@ -37,7 +37,10 @@ public class User extends Branch{
             if(userobj!=null){
                 System.out.println("User name: " + userobj.username);
                 System.out.println("User loan amount: " + userobj.loan);
-                
+                System.out.println("User bank name: " + userobj.bankName);
+                System.out.println("User bank id: " + userobj.bankId);
+                System.out.println("User branch name: " + userobj.branchName);
+                System.out.println("User branch id: " + userobj.branchId);
             }
         }
 

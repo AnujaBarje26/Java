@@ -2,8 +2,8 @@ package Collection;
 
 
 public class Branch extends Bank{
-    String branchName;
-    int branchId;
+    String branchName = "Axis Mumbai";
+    int branchId = 789;
     long branchPhoneNo;
     private long branchTotalFund=100000;
     private float branchInterest;
