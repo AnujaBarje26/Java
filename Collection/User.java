@@ -25,7 +25,7 @@ public class User extends Branch{
                 count++;
             }
             else{
-                System.out.println("User cant be added");
+                System.out.println("User cant be added!");
             }
         }
         
